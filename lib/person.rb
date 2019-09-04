@@ -7,3 +7,8 @@ class Person
     @name
   end
 end
+beyonce = Person.new
+beyonce.name = "Beyonce"
+
+beyonce.instance_variable_set(:@name, "Beyonce")
+beyonce.instance_variable_get(:@name)
