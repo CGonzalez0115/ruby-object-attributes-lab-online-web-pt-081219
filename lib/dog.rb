@@ -19,6 +19,6 @@ class Dog
     @name
   end
 end
-fido.Dog.new("Fido")
+fido.Dog.new
 fido.instance_variable_set(:name, "Fido")
 fido.instance_variable_get(:name)
