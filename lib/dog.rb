@@ -20,4 +20,4 @@ class Dog
   end
 end
 fido.Dog.new("Fido")
-fido.instance_variable_get(:@name)
+puts fido.instance_variable_get(:@name)
